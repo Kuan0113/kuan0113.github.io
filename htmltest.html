@@ -61,7 +61,7 @@
     // 載入模型
     const loader = new THREE.GLTFLoader();
     let model;
-    loader.load('model.glb', (gltf) => {
+    loader.load('test.glb', (gltf) => {
       model = gltf.scene;
       model.scale.set(1, 1, 1);
       scene.add(model);
